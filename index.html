@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <main class="project">
+        <div class="project-info">
+          <h1>Task Manager App</h1>
+          <form action="" id="form">
+            <div class="project-participants">
+              <input type="text" id="input" placeholder="Enter Task" />
+              <button class="__add">Add Task</button>
+              <div id="msg"></div>
+            </div>
+          </form>
+        </div>
+
+        <div class="project-tasks">
+          <div class="project-column">
+            <div class="project-column-heading">
+              <h2 class="project-column-heading__title">OPEN</h2>
+            </div>
+          
+            <div class="task" id="task-list" draggable="true">
+              <div class="task__tags">
+                <p>Konsep hero title yang menarik</p>
+              </div>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Icon di section our services</p>
+              </div>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Konsep hero title yang menarik</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-column">
+            <div class="project-column-heading">
+              <h2 class="project-column-heading__title">IN PROGRESS</h2>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Replace lorem ipsum text in the final designs</p>
+              </div>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Start the program</p>
+              </div>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>lead specific</p>
+              </div>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Let's Start</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-column">
+            <div class="project-column-heading">
+              <h2 class="project-column-heading__title">IN REVIEW</h2>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Check the Brand Value</p>
+              </div>
+            </div>
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Move that one image 5px down to make Phil Happy.</p>
+              </div>
+            </div>
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Send Advert illustrations over to production company.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-column">
+            <div class="project-column-heading">
+              <h2 class="project-column-heading__title">DONE</h2>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Dawn wants to move the text 3px to the right.</p>
+              </div>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Amend the contract details.</p>
+              </div>
+            </div>
+
+            <div class="task" draggable="true">
+              <div class="task__tags">
+                <p>Dawn wants to move the text 3px to the right.</p>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
